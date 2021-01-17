@@ -1,9 +1,5 @@
-function length(str) {
-	if (str === '') {
-		return 0;
-	} else {
-		 return length(str.substring(1)) + 1;
+for (let i = 1; i <= 100; i++) {
+	if (i % 3 == 0) {
+		console.log('Fizz');
 	}
 }
-
-console.log(length('hello'));
